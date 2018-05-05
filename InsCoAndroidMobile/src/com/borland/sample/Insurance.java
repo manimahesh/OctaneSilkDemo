@@ -1,4 +1,5 @@
 package com.borland.sample;
+// This is a sample comment.
 
 import com.borland.silktest.jtf.MobileBaseState;
 import org.junit.Before;
