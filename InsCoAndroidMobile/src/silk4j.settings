@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recorderProject version="18.5">
   <applicationConfiguration>
-    <connectionString>deviceName=SAMSUNG-SM-G930A;platformName=Android;host=localhost;app=C:\Installers\Borland\InsuranceMobile.apk</connectionString>
+    <connectionString>deviceName=SAMSUNG-SM-G930A;platformName=Android;host=localhost;app=https://github.com/MicroFocus/InsuranceMobile-Android/releases/download/1.0/InsuranceMobile.apk</connectionString>
     <baseStateInfo>
       <locator>/MobileDevice</locator>
     </baseStateInfo>

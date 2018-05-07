@@ -15,6 +15,8 @@ public class Insurance {
 
 	@Before
 	public void baseState() {
+		String configName = System.getProperty("silktest.configurationName");
+		System.out.println("This is a message from the Silk4J Code before executing base state. The configname is: " + configName);
 		MobileBaseState baseState = new MobileBaseState();
 		baseState.execute(desktop);
 	}
