@@ -23,7 +23,10 @@ public class Insurance {
 	public void baseState() {
 		
 		String configFilter = System.getProperty("silkTest.configurationFilter");
-		System.out.println("This is a message from the Silk4J Code before executing base state. The configFilter is: " + configFilter);
+		String configName = System.getProperty("silkTest.configurationName");
+		
+		System.out.println("This is the configFilter: " + configFilter);
+		System.out.println("This is the configuration Name: " + configName);
 		
 		JSONParser parser = new JSONParser();
 		Object obj = null;
