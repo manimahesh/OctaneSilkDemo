@@ -2,9 +2,15 @@ package com.borland.sample;
 // This is a sample comment.
 
 import com.borland.silktest.jtf.MobileBaseState;
+
 import org.junit.Before;
 import org.junit.Test;
 import com.microfocus.silktest.jtf.mobile.MobileTextField;
+
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
+
 import com.microfocus.silktest.jtf.mobile.MobileButton;
 import com.microfocus.silktest.jtf.mobile.MobileObject;
 import com.borland.silktest.jtf.Desktop;
@@ -15,8 +21,25 @@ public class Insurance {
 
 	@Before
 	public void baseState() {
-		String configName = System.getProperty("silktest.configurationName");
-		System.out.println("This is a message from the Silk4J Code before executing base state. The configname is: " + configName);
+		
+		String configFilter = System.getProperty("silkTest.configurationFilter");
+		System.out.println("This is a message from the Silk4J Code before executing base state. The configFilter is: " + configFilter);
+		
+		JSONParser parser = new JSONParser();
+		Object obj = null;
+		try {
+			obj = parser.parse(configFilter);
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		JSONObject jsonObject = (JSONObject) obj;
+		String deviceName=(String) jsonObject.get("deviceName");
+		
+		System.out.println("Found deviceName to be: " + deviceName);
+		
+		
 		MobileBaseState baseState = new MobileBaseState();
 		baseState.execute(desktop);
 	}

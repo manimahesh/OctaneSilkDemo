@@ -1,0 +1,9 @@
+<ObjectMap version="1">
+  <ObjectMapEntry id="Device" locator="/MobileDevice">
+    <ObjectMapEntry id="drawer_open" locator="//MobileObject[@content-desc=&apos;drawer_open&apos;]"/>
+    <ObjectMapEntry id="email" locator="//MobileTextField[@resource-id=&apos;silktest.insurancemobile:id/email&apos;]"/>
+    <ObjectMapEntry id="log_in_button" locator="//MobileButton[@resource-id=&apos;silktest.insurancemobile:id/log_in_button&apos;]"/>
+    <ObjectMapEntry id="LOGOUT" locator="//MobileObject[@caption=&apos;LOGOUT&apos;]"/>
+    <ObjectMapEntry id="password" locator="//MobileTextField[@resource-id=&apos;silktest.insurancemobile:id/password&apos;]"/>
+  </ObjectMapEntry>
+</ObjectMap>
