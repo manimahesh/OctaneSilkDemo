@@ -23,6 +23,8 @@ public class Insurance {
 	public void baseState() {
 		
 		/*
+		 * If you are using anything other than Silk4J, you must use the parser below to find the device name and call that device
+		 *
 		
 		String configFilter = System.getProperty("silkTest.configurationFilter");
 		String configName = System.getProperty("silkTest.configurationName");
@@ -44,6 +46,7 @@ public class Insurance {
 		
 		System.out.println("Found deviceName to be: " + deviceName);
 		
+		*
 		*/
 		
 		MobileBaseState baseState = new MobileBaseState();
