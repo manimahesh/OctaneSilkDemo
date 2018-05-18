@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recorderProject version="18.5">
+  <applicationConfiguration>
+    <connectionString>deviceName=samsung SAMSUNG-SM-G930A;platformName=Android;platformVersion=7.0;host=http://192.168.200.133:8580/wd/hub?type=MC;userName=silk@default.com;password=silk-%5BwdEBLFy%2FLDclx94MpxC7fw%3D%3D%5D;app=C:\Installers\Borland\InsuranceMobile.apk</connectionString>
+    <baseStateInfo>
+      <locator>/MobileDevice</locator>
+    </baseStateInfo>
+  </applicationConfiguration>
+  <agentOptions>
+    <entry>
+      <string>OPT_TRUELOG_SCREENSHOT_MODE</string>
+      <int>1</int>
+    </entry>
+    <entry>
+      <string>OPT_ASSET_NAMESPACE</string>
+      <string>MM1InsCo</string>
+    </entry>
+  </agentOptions>
+</recorderProject>
