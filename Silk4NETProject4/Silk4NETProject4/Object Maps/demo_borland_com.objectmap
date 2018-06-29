@@ -1,0 +1,11 @@
+<ObjectMap version="1">
+  <ObjectMapEntry id="demo_borland_com" locator="//BrowserApplication" urlPattern="*demo.borland.com*">
+    <ObjectMapEntry id="BrowserWindow" locator="//BrowserWindow">
+      <ObjectMapEntry id="EmailID" locator="//INPUT[@id=&apos;login-form:email&apos;]"/>
+      <ObjectMapEntry id="John Smith" locator="//LABEL[@textContents=&apos;John Smith&apos;]"/>
+      <ObjectMapEntry id="login-form login" locator="//INPUT[@id=&apos;login-form:login&apos;]"/>
+      <ObjectMapEntry id="logout-form logout" locator="//INPUT[@id=&apos;logout-form:logout&apos;]"/>
+      <ObjectMapEntry id="Password" locator="//INPUT[@id=&apos;login-form:password&apos;]"/>
+    </ObjectMapEntry>
+  </ObjectMapEntry>
+</ObjectMap>
