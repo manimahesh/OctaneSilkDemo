@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recorderProject version="19.5">
+  <applicationConfiguration>
+    <browserType>Edge</browserType>
+    <baseStateInfo>
+      <locator>//BrowserApplication</locator>
+      <url>http://www.advantageonlineshopping.com/#/</url>
+    </baseStateInfo>
+  </applicationConfiguration>
+  <agentOptions>
+    <entry>
+      <string>OPT_ASSET_NAMESPACE</string>
+      <string>AOS1</string>
+    </entry>
+    <entry>
+      <string>OPT_TRUELOG_SCREENSHOT_MODE</string>
+      <int>2</int>
+    </entry>
+  </agentOptions>
+</recorderProject>
