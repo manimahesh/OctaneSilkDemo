@@ -1,16 +1,13 @@
 <ObjectMap version="1">
   <ObjectMapEntry id="advantageonlineshopping_com" locator="//BrowserApplication" urlPattern="*advantageonlineshopping.com*">
     <ObjectMapEntry id="BrowserWindow" locator="//BrowserWindow">
-      <ObjectMapEntry id="Bose Soundlink Bluet" locator="//A[@textContents=&apos;Bose Soundlink Bluet*&apos;]"/>
-      <ObjectMapEntry id="checkOutButton" locator="//BUTTON[@id=&apos;checkOutButton&apos;]"/>
-      <ObjectMapEntry id="CONTINUE SHOPPING" locator="//A[@textContents=&apos;CONTINUE SHOPPING&apos;]"/>
-      <ObjectMapEntry id="HOME" locator="//A[@textContents=&apos;HOME&apos;]"/>
-      <ObjectMapEntry id="M 9 20 c -1 1 0 -2 0" locator="//path[@d=&apos;M 9 20 c -1.1 0 -2 0*&apos;][2]"/>
-      <ObjectMapEntry id="menuCart" locator="//svg[@id=&apos;menuCart&apos;]"/>
-      <ObjectMapEntry id="rabbit" locator="//SPAN[@id=&apos;rabbit&apos;]"/>
-      <ObjectMapEntry id="REMOVE" locator="//A[@textContents=&apos;REMOVE&apos;]"/>
-      <ObjectMapEntry id="save_to_cart" locator="//BUTTON[@name=&apos;save_to_cart&apos;]"/>
-      <ObjectMapEntry id="speakersImg" locator="//DIV[@id=&apos;speakersImg&apos;]"/>
+      <ObjectMapEntry id="Bose Soundlink Bluet" locator="//A[@textContents='Bose Soundlink Bluet*']" />
+      <ObjectMapEntry id="CONTINUE SHOPPING" locator="//A[@textContents='CONTINUE SHOPPING']" />
+      <ObjectMapEntry id="M 9 20 c -1 1 0 -2 0" locator="//path[@d='M 9*'][2]" />
+      <ObjectMapEntry id="rabbit" locator="//SPAN[@id='rabbit']" />
+      <ObjectMapEntry id="REMOVE" locator="//A[@textContents='REMOVE']" />
+      <ObjectMapEntry id="save_to_cart" locator="//BUTTON[@name='save_to_cart']" />
+      <ObjectMapEntry id="speakersTxt" locator="//SPAN[@id='speakersTxt']" />
     </ObjectMapEntry>
   </ObjectMapEntry>
 </ObjectMap>

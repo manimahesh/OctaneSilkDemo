@@ -5,6 +5,7 @@ import com.borland.silktest.jtf.xbrowser.DomElement;
 import com.borland.silktest.jtf.xbrowser.DomLink;
 import com.borland.silktest.jtf.xbrowser.DomButton;
 import com.borland.silktest.jtf.Desktop;
+import com.borland.silktest.jtf.Utils;
 
 public class Shopping {
 
@@ -19,14 +20,13 @@ public class Shopping {
 
 	@Test
 	public void speakerShop() {
-		desktop.<DomElement>find("advantageonlineshopping_com.BrowserWindow.speakersImg").click();
+		desktop.<DomElement>find("advantageonlineshopping_com.BrowserWindow.speakersTxt").click();
 		desktop.<DomLink>find("advantageonlineshopping_com.BrowserWindow.Bose Soundlink Bluet").click();
 		desktop.<DomElement>find("advantageonlineshopping_com.BrowserWindow.rabbit").click();
 		desktop.<DomButton>find("advantageonlineshopping_com.BrowserWindow.save_to_cart").click();
-		desktop.<DomElement>find("advantageonlineshopping_com.BrowserWindow.menuCart").click();
-		desktop.<DomButton>find("advantageonlineshopping_com.BrowserWindow.checkOutButton").click();
-		desktop.<DomLink>find("advantageonlineshopping_com.BrowserWindow.HOME").click();
-		desktop.<DomElement>find("advantageonlineshopping_com.BrowserWindow.M 9 20 c -1 1 0 -2 0").click();
+		//desktop.<DomElement>find("advantageonlineshopping_com.BrowserWindow.M 9 20 c -1 1 0 -2 0").click();
+		Utils.sleep(2000);
+		desktop.<DomElement>find("advantageonlineshopping_com.BrowserWindow.//svg[@id='menuCart']//DomElement[1]").click();
 		desktop.<DomLink>find("advantageonlineshopping_com.BrowserWindow.REMOVE").click();
 		desktop.<DomLink>find("advantageonlineshopping_com.BrowserWindow.CONTINUE SHOPPING").click();
 	}
