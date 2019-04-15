@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recorderProject version="19.5">
   <applicationConfiguration>
-    <browserType>Edge</browserType>
+    <browserType>GoogleChrome</browserType>
     <baseStateInfo>
       <locator>//BrowserApplication</locator>
       <url>http://www.advantageonlineshopping.com/#/</url>

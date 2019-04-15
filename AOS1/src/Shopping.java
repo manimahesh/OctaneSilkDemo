@@ -7,6 +7,8 @@ import com.borland.silktest.jtf.xbrowser.DomButton;
 import com.borland.silktest.jtf.Desktop;
 import com.borland.silktest.jtf.Utils;
 
+
+
 public class Shopping {
 
 	private Desktop desktop = new Desktop();
